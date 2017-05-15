@@ -1,5 +1,5 @@
 .large-hero {
-      border-bottom: 10px solid #9dbdc6;
+      border-bottom: 10px solid #666464;
       position: relative;
 
    &__image {
@@ -9,7 +9,7 @@
    &__text-content {
        position: absolute;
        top: 50%;
-       transform: translateY(-55%);
+       transform: translateY(-50%);
        left: 0;
        width: 100%;
        text-align: center;
@@ -19,7 +19,7 @@
        font-weight: 300;
        color: white;
        text-shadow: 1px 1px black;
-       font-size: 2.4rem;
+       font-size: 4.8rem;
        margin: 0
 
        @mixin atSmall {
@@ -31,7 +31,7 @@
          font-weight: 300;
          color: white;
          text-shadow: 1px 1px black;
-         font-size: 1.5rem;
+         font-size: 2.9rem;
          margin: 0
 
          @mixin atSmall {
@@ -41,8 +41,8 @@
 
    &__description {
          color: white;
-         font-size: 1.1rem;
-         font-weight: 200;
+         font-size: 1.875rem;
+         font-weight: 300;
          text-shadow: 1px 1px black;
          max-width: 30rem;
          margin-left: auto;
