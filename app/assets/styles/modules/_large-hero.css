@@ -18,7 +18,7 @@
    &__title {
        font-weight: 300;
        color: white;
-       text-shadow: 1px 1px black;
+       text-shadow: 1px 1px $mainGray;
        font-size: 5.2rem;
        margin: 0
 
@@ -30,7 +30,7 @@
    &__subtitle {
          font-weight: 300;
          color: white;
-         text-shadow: 1px 1px black;
+         text-shadow: 1px 1px $mainGray;
          font-size: 2.9rem;
          margin: 0
 
@@ -43,7 +43,7 @@
          color: white;
          font-size: 1.875rem;
          font-weight: 300;
-         text-shadow: 1px 1px black;
+         text-shadow: 1px 1px $mainGray;
          max-width: 30rem;
          margin-left: auto;
          margin-right: auto;

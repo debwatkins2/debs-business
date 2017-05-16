@@ -465,7 +465,7 @@ img {
 }
 
 a {
-  color: #0593c6;
+  color: #61c6f6;
 }
 
 .large-hero {
@@ -490,7 +490,7 @@ a {
 .large-hero__title {
        font-weight: 300;
        color: white;
-       text-shadow: 1px 1px black;
+       text-shadow: 1px 1px #4f4d4d;
        font-size: 5.2rem;
    }
 
@@ -503,7 +503,7 @@ a {
 .large-hero__subtitle {
          font-weight: 300;
          color: white;
-         text-shadow: 1px 1px black;
+         text-shadow: 1px 1px #4f4d4d;
          font-size: 2.9rem;
    }
 
@@ -517,7 +517,7 @@ a {
          color: white;
          font-size: 1.875rem;
          font-weight: 300;
-         text-shadow: 1px 1px black;
+         text-shadow: 1px 1px #4f4d4d;
          max-width: 30rem;
          margin-left: auto;
          margin-right: auto;
@@ -531,7 +531,7 @@ a {
   }
 
 .btn {
-    background-color: #0593c6;
+    background-color: #61c6f6;
     color: white;
     text-decoration: none;
     padding: .75rem 1.2rem;
@@ -598,7 +598,7 @@ a {
     }
 
 .headline--blue {
-      color: #0593c6;
+      color: #61c6f6;
     }
 
 .headline--small {
@@ -646,12 +646,12 @@ a {
   }
 
 .page-section--blue {
-      background-color: #38a1c4;
+      background-color: #61c6f6;
       color: white;
     }
 
 .page-section--testimonials {
-      background: url('/assets/images/testimonials-bg.jpg') top center no-repeat;
+      background: url('/assets/images/portland.png') top center no-repeat;
       background-size: cover;
     }
 
@@ -660,6 +660,10 @@ a {
     clear: both;
     display: table;
   }
+
+.row--t-padding {
+      padding-top: 80px;
+    }
 
 .row--gutters {
       margin-right: -65px;
@@ -673,6 +677,14 @@ a {
       padding-right: 65px;
       -webkit-box-sizing: border-box;
               box-sizing: border-box;
+    }
+
+.row--gutters-small {
+      margin-right: -45px;
+    }
+
+.row--gutters-small > div {
+      padding-right: 45px;
     }
 
 .row--gutters-large > div {
@@ -707,6 +719,25 @@ a {
     }
   }
 
+/* Begin Equal Height Rules */
+
+@media (min-width: 800px) {
+
+.row--equal-height-at-medium {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex
+
+    }
+  }
+
+.row--equal-height-at-medium > div {
+        float: none;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+      }
+
 .generic-content-container p {
     line-height: 1.65;
     font-size: 1.125rem;
@@ -721,8 +752,8 @@ a {
 .section-title {
     font-size: 3.75rem;
     font-weight: 300;
-    text-shadow: 1px 1px black;
     text-align: center;
+    text-shadow: 2px 2px #4f4d4d;
 }
 
 .section-title strong {
@@ -730,7 +761,11 @@ a {
     }
 
 .section-title--blue {
-      color: #0593c6;
+      color: #61c6f6;
+    }
+
+.section-title--white {
+      color: white;
     }
 
 .section-title__icon {
@@ -765,7 +800,7 @@ a {
 .feature-item__title {
     font-size: 1.6rem;
     font-weight: 300;
-    text-shadow: 1px 1px black;
+    text-shadow: 1px 1px #4f4d4d;
     margin-bottom: .8rem;
     margin-top: .7em;
     text-align: center;
@@ -781,6 +816,38 @@ a {
   }
 
 .feature-item__color {
-    color: white;
-    text-shadow: 1px 1px black;
+    color: black;
   }
+
+.testimonial {
+    background-color: white;
+    padding: 0 1.8125rem 1px 1.8125rem;
+}
+
+.testimonial__photo {
+      border-radius: 80px;
+      overflow: hidden;
+      width: 160px;
+      height: 160px;
+      margin: 0 auto -80px auto;
+      position: relative;
+      top: -80px;
+      border: 6px solid white;
+
+    }
+
+.testimonial__title {
+      color: #61c6f6;
+      text-align: center;
+      font-size: 1.5rem;
+      font-weight: 500;
+      margin: 0;
+    }
+
+.testimonial__subtitle {
+      color: #4f4d4d;
+      text-align: center;
+      font-weight: 400;
+      font-size: 0.9375rem;
+      margin: .25rem 0 1rem 0;
+    }

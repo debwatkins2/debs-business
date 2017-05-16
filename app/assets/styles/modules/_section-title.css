@@ -1,8 +1,8 @@
 .section-title {
     font-size: 3.75rem;
     font-weight: 300;
-    text-shadow: 1px 1px black;
     text-align: center;
+    text-shadow: 2px 2px $mainGray;
 
     strong {
       font-weight: 500;
@@ -10,6 +10,10 @@
 
     &--blue {
       color: $mainBlue;
+    }
+
+    &--white {
+      color: white;
     }
 
     &__icon {

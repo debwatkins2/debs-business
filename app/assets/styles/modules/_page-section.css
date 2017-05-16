@@ -6,12 +6,12 @@
     }
 
     &--blue {
-      background-color: $secondBlue;
+      background-color: $mainBlue;
       color: white;
     }
 
     &--testimonials {
-      background: url('/assets/images/testimonials-bg.jpg') top center no-repeat;
+      background: url('/assets/images/portland.png') top center no-repeat;
       background-size: cover;
     }
 }
