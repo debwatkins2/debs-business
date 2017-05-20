@@ -11,7 +11,8 @@
     }
 
     &--testimonials {
-      background: url('/assets/images/portland.png') top center no-repeat;
+      background: url('/assets/images/sunlight.png') top center no-repeat;
       background-size: cover;
+      opacity: .85;
     }
 }
