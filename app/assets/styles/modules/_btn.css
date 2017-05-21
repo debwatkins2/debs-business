@@ -8,6 +8,7 @@
 
     &--yellow {
       background-color: $mainYellow;
+      color: $mainGray;
     }
 
     &--large {
