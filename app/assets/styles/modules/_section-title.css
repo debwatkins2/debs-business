@@ -1,8 +1,12 @@
 .section-title {
-    font-size: 3.75rem;
+    font-size: 2.55rem;
     font-weight: 300;
     text-align: center;
     text-shadow: 2px 2px $mainGray;
+
+    @mixin atSmall {
+      font-size: 3.75rem;
+    }
 
     strong {
       font-weight: 700;
@@ -13,10 +17,6 @@
     }
 
     &--white {
-      color: white;
+      color: #FFF;
     }
-
-    &__icon {
-      margin-right: .5rem;
-    }
-}
+  }

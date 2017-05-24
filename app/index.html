@@ -6,20 +6,33 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
   <title>Created with Coffee & Code</title>
   <meta name="keywords" content="Travel planning, travel bundles, travel escapes">
-  <meta name="description" content="We create beautiful, fully responsive websites that will inspire you and your customers.">
+  <meta name="description" content="Beautiful, fully responsive websites to inspire you and your customers.">
   <link rel="stylesheet" href="temp/styles/styles.css">
 </head>
 <body>
-  <header>
-    <a href="#" class="btn">Get in Touch</a>
-    <nav>
-      <ul>
-        <li><a href="#about-us">About Us</a></li>
-        <li><a href="#services">Our Features</a></li>
-        <li><a href="#testimonials">Our Work</a></li>
-      </ul>
-    </nav>
+
+
+  <header class="site-header">
+    <div class="wrapper">
+    <div class="site-header__menu-icon">
+      <div class="site-header__menu-icon__middle"></div>
+    </div>
+
+      <div class="site-header__menu-content">
+      <div class="site-header__btn-container">
+        <a href="#" class="btn btn--yellow-small">Get in Touch</a>
+      </div>
+        <nav class="primary-nav primary-nav--pull-right">
+            <ul>
+              <li><a href="#about-us">About Us</a></li>
+              <li><a href="#services">Our Features</a></li>
+              <li><a href="#testimonials">Our Work</a></li>
+            </ul>
+        </nav>
+    </div>
+     </div>
   </header>
+
 
   <div class="large-hero">
     <picture>
@@ -31,13 +44,13 @@
 
         <img src="assets/images/hero--smaller.png" alt="The Blue Wall" class="large-hero__image">
     </picture>
+
     <div class="large-hero__text-content">
       <div class="wrapper">
           <h1 class="large-hero__title">Created with Coffee & Code</h1>
-
           <h2 class="large-hero__subtitle">A Web Design Studio.</h2>
-          <p class="large-hero__description">Creating beautiful, fully responsive websites that will inspire you and your customers.</p>
-          <p><a href="" class="btn btn--yellow btn--large">Get Started Today</a></p>
+          <p class="large-hero__description">Beautiful, fully responsive websites to inspire you and your customers.</p>
+          <p><a href="" class="btn btn--yellow">Get Started Today</a></p>
       </div>
     </div>
   </div>
@@ -47,20 +60,27 @@
       <h2 class="headline headline--centered headline--light headline--b-margin-small">The first website we built <strong>was our own</strong>.</h2>
       <h3 class="headline headline--centered headline--blue headline--small headline--narrow headline--light headline--b-margin-large">Ever since, we&rsquo;ve been working to make the web <strong>more beautiful for everyone</strong>.</h3>
 
-     <div class="wrapper wrapper--medium wrapper--b-margin">
-          <img src="assets/images/first-meeting.png" alt="Dev Team hard at work.">
+      <div class="wrapper wrapper--medium wrapper--b-margin">
+          <img src="assets/images/first-meeting.png" alt="Dev Team hard at work!">
       </div>
+
       <div class="row row--gutters">
         <div class="row__medium-4 row__medium-4--larger">
-          <img src="assets/images/coffee-shop-meeting.png" alt="Coffee Shop Office Space!">
+          <picture>
+              <source srcset="assets/images/coffee-shop-meeting.png" media="(min-width: 1020px)">
+
+              <source srcset="assets/images/coffee-shop-meeting3.png" media="(min-width: 800px)">
+
+              <img src="assets/images/coffee-shop2.png" alt="Coffee Shop Office Space!">
+          </picture>
         </div>
         <div class="row__medium-8 row__medium-8--smaller">
 
         <div class="generic-content-container">
           <h2 class="headline headline--no-t-margin">Here&rsquo;s how we got started&hellip;</h2>
-          <p>Lorem ipsum dolor sit, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, <a href="#">quis exercitation</a> ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          <p>Lorem ipsum dolor sit, consectetur adipisicing elit, sed eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, <a href="#">quis exercitation</a> ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure in reprehenderit  voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
           <p>Duis aute irure dolor in <strong>reprehenderit in</strong> voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa officia deserunt mollit anim est laborum. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-          <p>Duis aute irure dolor  reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum velit esse cillum <strong>dolore eu fugiat.</strong></p>
+          <p>Duis aute irure dolor  reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum velit cillum <strong>dolore eu fugiat.</strong></p>
         </div>
         </div>
       </div>
@@ -143,8 +163,11 @@
 
   <footer class="site-footer">
     <div class="wrapper">
-      <span class="site-footer__text"><p><i class="fa fa-coffee" aria-hidden="true"></i>  Created with Coffee and Code  <i class="fa fa-laptop" aria-hidden="true"></i>, Copyright &copy; 2017, All rights reserved.</p></span><a href="#" class="btn btn--yellow">Get in Touch</a>
+      <p><span class="site-footer__text">Copyright &copy; 2017 <i class="fa fa-coffee" aria-hidden="true"></i>  Created with Coffee & Code  <i class="fa fa-laptop" aria-hidden="true"></i>  All rights reserved.</span> <a href="#" class="btn">Get in Touch</a></p>
     </div>
   </footer>
+
+<script src="/temp/scripts/App.js"></script>
+
 </body>
 </html>
