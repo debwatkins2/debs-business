@@ -20,9 +20,12 @@
 
     &--yellow-small {
       background-color: $mainYellow;
+      color: $mainGray;
 
       @mixin atMedium {
         background-color: $mainBlue;
+        color: #FFF;
+        margin-top: .275rem;
       }
     }
 

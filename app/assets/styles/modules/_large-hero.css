@@ -23,6 +23,7 @@
     &__title {
     font-weight: 200;
     color: #FFF;
+    text-shadow: 1px solid $mainGray;
     margin: 0;
     font-size: 2.4rem;
 
@@ -36,6 +37,7 @@
     padding-top: 2rem;
     font-weight: 200;
     color: #FFF;
+    text-shadow: 1px solid $mainGray;
     font-size: 1.5rem;
     margin: 0;
 
@@ -48,6 +50,7 @@
     color: #FFF;
     font-size: 1.1rem;
     font-weight: 100;
+    text-shadow: 1px solid $mainGray;
     max-width: 30rem;
     margin-left: auto;
     margin-right: auto;
