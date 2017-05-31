@@ -12,14 +12,18 @@
     @mixin atSmall {
       margin: 0 5px;
     }
-
-    .icon {
-      display: block;
-      position: absolute;
-      padding: 10px;
-  /*    top: 50%;
-      left: 50%;
-      transform: translate(-50%, -50%;); */
-    }
   }
+}
+
+.icon-mail {
+  padding: 18px 10px 0 10px;
+
+}
+
+.icon-facebook {
+  padding: 15px;
+}
+
+.icon-twitter {
+  padding-top: 15px;
 }

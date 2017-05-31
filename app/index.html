@@ -24,9 +24,9 @@
       </div>
         <nav class="primary-nav primary-nav--pull-right">
             <ul>
-              <li><a href="#about-us">About Us</a></li>
-              <li><a href="#services">Our Features</a></li>
-              <li><a href="#testimonials">Our Work</a></li>
+              <li><a href="#about-us" id="about-us-link">About Us</a></li>
+              <li><a href="#services" id="our-features-link">Our Features</a></li>
+              <li><a href="#testimonials" id="our-work-link">Our Work</a></li>
             </ul>
         </nav>
       </div>
@@ -87,7 +87,7 @@
     </div>
   </div>
 
-  <div id="services" class="page-section page-section--blue">
+  <div id="services" class="page-section page-section--blue" data-matching-link="#our-features-link">
     <div class="wrapper">
       <h2 class="section-title"><img class="section-title__icon" src="assets/images/icons/star.svg"> Our <strong>Features</strong></h2>
 
@@ -125,7 +125,7 @@
     </div>
 
 
-    <div id="testimonials" class="page-section page-section--testimonials">
+    <div id="testimonials" class="page-section page-section--testimonials" data-matching-link="#our-work-link">
       <div class="wrapper wrapper--no-padding-until-large">
         <h2 class="section-title section-title--white">Our <strong>Work</strong></h2>
       <div class="row row--gutters generic-content-container row--t-padding row--gutters-small row--equal-height-at-medium">
@@ -180,9 +180,9 @@
     </div>
 
         <div class="social-icons">
-          <a href="#" class="social-icons__icon icon"><img src="assets/images/icons/mail.svg"></a>
-          <a href="#" class="social-icons__icon icon"><img src="assets/images/icons/facebook.svg"></a>
-          <a href="#" class="social-icons__icon icon"><img src="assets/images/icons/twitter.svg"></a>
+          <a href="mailto:info@createdwithcoffeeandcode.com?subject=I have a project to discuss!" class="icon-mail social-icons__icon "><img src="assets/images/icons/mail.svg"></a>
+          <a href="https://www.facebook.com/createdwithcoffeeandcode/" target="_blank" class="icon-facebook social-icons__icon"><img src="assets/images/icons/facebook.svg"></a>
+          <a href="https://twitter.com/Createdbycode" target="_blank" class="icon-twitter social-icons__icon icon"><img src="assets/images/icons/twitter.svg"></a>
         </div>
     </div>
     <div class="modal__close">X</div>
