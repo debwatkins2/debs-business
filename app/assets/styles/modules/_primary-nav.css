@@ -42,15 +42,19 @@
     display: block;
     padding: 5px 8px;
     font-size: .8rem;
-    background-color: rgba($mainBlue, .5);
+    background-color: $mainBlue;
+    margin-bottom: 6em;
 
     @mixin atMedium {
       font-size: 1rem;
-      padding: 12px 0;
+      color: black;
+      font-weight: 400;
+      margin-bottom: 0;
+      padding: 22px 0;
       background-color: transparent;
 
       &.is-current-link {
-        color: $mainYellow;
+        color: #FFF;
       }
     }
   }
